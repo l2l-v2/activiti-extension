@@ -1,6 +1,6 @@
 # Runtime Bundle Extension
-this project is intend to develop(for extension), test, and package the `Activiti Runtime Bundle Service`.
-To Package the extension of the original `activiti-runtime-bundle-service' into jars, you can go through steps as follow.
+This project is intend to develop(for extension), test, and package the `Activiti Runtime Bundle Service`.
+To Package the extension of the original `activiti-runtime-bundle-service` in jar, you can go through steps as follow.
 - make sure the extension works well alongside the original `activiti-runtime-bundle-service'.
 - run `mvn clean package` to package the extension not including its dependencies.
 - install the generated jar into the local maven repository. Note that the `-Dfile` denotes the jar file path on your own host
